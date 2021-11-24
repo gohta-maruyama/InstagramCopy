@@ -15,7 +15,6 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var displayNameTextField: UITextField!
     
-    // ログインボタンをタップしたときに呼ばれるメソッド
     @IBAction func handleLoginButton(_ sender: Any) {
         if let address = mailAddressTextField.text, let password = passwordTextField.text {
             
@@ -45,7 +44,6 @@ class LoginViewController: UIViewController {
         }
     }
     
-    // アカウント作成ボタンをタップしたときに呼ばれるメソッド
     @IBAction func handleCreateAccountButton(_ sender: Any) {
         if let address = mailAddressTextField.text, let password = passwordTextField.text, let displayName = displayNameTextField.text {
             
@@ -93,6 +91,8 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
