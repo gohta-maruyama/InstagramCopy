@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		924787C0274DC8C300CE3B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924787BF274DC8C300CE3B73 /* AppDelegate.swift */; };
 		924787C2274DC8C300CE3B73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924787C1274DC8C300CE3B73 /* SceneDelegate.swift */; };
-		924787C4274DC8C300CE3B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924787C3274DC8C300CE3B73 /* ViewController.swift */; };
 		924787C7274DC8C300CE3B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924787C5274DC8C300CE3B73 /* Main.storyboard */; };
 		924787C9274DC8C500CE3B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924787C8274DC8C500CE3B73 /* Assets.xcassets */; };
 		924787CC274DC8C500CE3B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924787CA274DC8C500CE3B73 /* LaunchScreen.storyboard */; };
@@ -27,7 +26,6 @@
 		924787BC274DC8C300CE3B73 /* InstagramCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924787BF274DC8C300CE3B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		924787C1274DC8C300CE3B73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		924787C3274DC8C300CE3B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		924787C6274DC8C300CE3B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		924787C8274DC8C500CE3B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		924787CB274DC8C500CE3B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 				2F1C55CA62F8A613904CE6CD /* Pods-InstagramCopy.debug.xcconfig */,
 				9DD57FB035AA4FF1984E7356 /* Pods-InstagramCopy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,7 +82,6 @@
 			children = (
 				924787BF274DC8C300CE3B73 /* AppDelegate.swift */,
 				924787C1274DC8C300CE3B73 /* SceneDelegate.swift */,
-				924787C3274DC8C300CE3B73 /* ViewController.swift */,
 				924787D3274DC91E00CE3B73 /* LoginViewController.swift */,
 				924787D5274DC92E00CE3B73 /* HomeViewController.swift */,
 				924787D7274DC94300CE3B73 /* ImageSelectViewController.swift */,
@@ -226,7 +222,6 @@
 				924787DA274DC95100CE3B73 /* PostViewController.swift in Sources */,
 				924787DC274DC96000CE3B73 /* SettingViewController.swift in Sources */,
 				924787D4274DC91E00CE3B73 /* LoginViewController.swift in Sources */,
-				924787C4274DC8C300CE3B73 /* ViewController.swift in Sources */,
 				924787C0274DC8C300CE3B73 /* AppDelegate.swift in Sources */,
 				924787C2274DC8C300CE3B73 /* SceneDelegate.swift in Sources */,
 			);
