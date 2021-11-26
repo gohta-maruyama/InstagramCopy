@@ -110,7 +110,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="ホーム" image="home" id="qq7-qq-hsZ"/>
                     <connections>
-                        <outlet property="tableView" destination="1cr-pt-SKq" id="i9x-0y-zvp"/>
+                        <outlet property="tableView" destination="1cr-pt-SKq" id="6lS-8J-fjQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gtf-1p-Pzm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
