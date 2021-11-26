@@ -9,5 +9,5 @@ import Foundation
 
 struct Const {
     static let ImagePath = "images"
-    static let PostPathi = "posts"
+    static let PostPath = "posts"
 }

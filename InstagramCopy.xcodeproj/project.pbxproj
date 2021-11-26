@@ -20,6 +20,9 @@
 		92B84F14274E013500947C07 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B84F13274E013500947C07 /* TabBarController.swift */; };
 		92B84F18274E204C00947C07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92B84F17274E204C00947C07 /* GoogleService-Info.plist */; };
 		92B84F1A274EFD4500947C07 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B84F19274EFD4500947C07 /* Const.swift */; };
+		92B84F1C2750712900947C07 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B84F1B2750712900947C07 /* PostData.swift */; };
+		92B84F21275073DE00947C07 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B84F1F275073DE00947C07 /* PostTableViewCell.swift */; };
+		92B84F22275073DE00947C07 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B84F20275073DE00947C07 /* PostTableViewCell.xib */; };
 		C2C3C6498FFE759E8B700F97 /* Pods_InstagramCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5052F1199DFFA49CF242CD86 /* Pods_InstagramCopy.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		92B84F13274E013500947C07 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		92B84F17274E204C00947C07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		92B84F19274EFD4500947C07 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		92B84F1B2750712900947C07 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		92B84F1F275073DE00947C07 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		92B84F20275073DE00947C07 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		9DD57FB035AA4FF1984E7356 /* Pods-InstagramCopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramCopy.release.xcconfig"; path = "Target Support Files/Pods-InstagramCopy/Pods-InstagramCopy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +100,10 @@
 				924787D9274DC95100CE3B73 /* PostViewController.swift */,
 				924787DB274DC96000CE3B73 /* SettingViewController.swift */,
 				92B84F13274E013500947C07 /* TabBarController.swift */,
+				92B84F1F275073DE00947C07 /* PostTableViewCell.swift */,
+				92B84F20275073DE00947C07 /* PostTableViewCell.xib */,
 				92B84F19274EFD4500947C07 /* Const.swift */,
+				92B84F1B2750712900947C07 /* PostData.swift */,
 				924787C5274DC8C300CE3B73 /* Main.storyboard */,
 				924787C8274DC8C500CE3B73 /* Assets.xcassets */,
 				924787CA274DC8C500CE3B73 /* LaunchScreen.storyboard */,
@@ -172,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				924787CC274DC8C500CE3B73 /* LaunchScreen.storyboard in Resources */,
+				92B84F22275073DE00947C07 /* PostTableViewCell.xib in Resources */,
 				92B84F18274E204C00947C07 /* GoogleService-Info.plist in Resources */,
 				924787C9274DC8C500CE3B73 /* Assets.xcassets in Resources */,
 				924787C7274DC8C300CE3B73 /* Main.storyboard in Resources */,
@@ -227,11 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B84F21275073DE00947C07 /* PostTableViewCell.swift in Sources */,
 				924787D8274DC94300CE3B73 /* ImageSelectViewController.swift in Sources */,
 				92B84F14274E013500947C07 /* TabBarController.swift in Sources */,
 				924787D6274DC92E00CE3B73 /* HomeViewController.swift in Sources */,
 				924787DA274DC95100CE3B73 /* PostViewController.swift in Sources */,
 				924787DC274DC96000CE3B73 /* SettingViewController.swift in Sources */,
+				92B84F1C2750712900947C07 /* PostData.swift in Sources */,
 				924787D4274DC91E00CE3B73 /* LoginViewController.swift in Sources */,
 				924787C0274DC8C300CE3B73 /* AppDelegate.swift in Sources */,
 				924787C2274DC8C300CE3B73 /* SceneDelegate.swift in Sources */,
